@@ -1,8 +1,11 @@
 import React from "react";
 import { Button, Card, CardGroup, Col, Row } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import './Chef.css'
 
 const Chef = () => {
+  const navigate = useNavigate()
+  const id = 1;
   return (
     <div className=" py-5 container mx-auto">
       <h1 className="text-center mb-3">Our Chefs</h1>
@@ -24,7 +27,7 @@ const Chef = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Buy Now</Button>
+                  <Button onClick={() => navigate(`/chef/${id}`)}>Buy Now</Button>
                 </Card.Footer>
               </Card>
             </Col>
@@ -43,7 +46,7 @@ const Chef = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Buy Now</Button>
+                  <Button onClick={() => navigate(`/chef/${id}`)}>Buy Now</Button>
                 </Card.Footer>
               </Card>
             </Col>
@@ -62,7 +65,7 @@ const Chef = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Buy Now</Button>
+                  <Button onClick={() => navigate(`/chef/${id}`)}>Buy Now</Button>
                 </Card.Footer>
               </Card>
             </Col>
@@ -83,7 +86,7 @@ const Chef = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Buy Now</Button>
+                  <Button onClick={() => navigate(`/chef/${id}`)}>Buy Now</Button>
                 </Card.Footer>
               </Card>
             </Col>
@@ -102,7 +105,7 @@ const Chef = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Buy Now</Button>
+                  <Button onClick={() => navigate(`/chef/${id}`)}>Buy Now</Button>
                 </Card.Footer>
               </Card>
             </Col>
@@ -121,7 +124,7 @@ const Chef = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Buy Now</Button>
+                  <Button onClick={() => navigate(`/chef/${id}`)}>Buy Now</Button>
                 </Card.Footer>
               </Card>
             </Col>

@@ -3,6 +3,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
+import ChefDetails from './Components/ChefDetails/ChefDetails';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import NavItem from './Components/NavItem/NavItem';
@@ -14,10 +15,12 @@ function App() {
     <div>
       <NavItem/>
       <Routes>
-        <Route path='/' element={<Home/> }/>
+        <Route path='/' element={<Home />} />
+        <Route path='/chef/:id' element={<ChefDetails/> }/>
+        <Route path='/cart' element></Route>
         <Route path='/about' element={<About/> }/>
         <Route path='/signup' element={<SignUp/> }/>
-        <Route path='/login' element={<SignUp/> }/>
+        <Route path='/login' element={<SignUp />} />
         <Route path='*' element={<NotFound/> }/>
       </Routes>
       <Footer/>
