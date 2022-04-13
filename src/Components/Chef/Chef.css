@@ -1,0 +1,8 @@
+.card-group{
+    justify-content: center;
+}
+.card-img{
+    height: 300px;
+    object-fit: cover;
+    width: 350px;
+}
