@@ -8,7 +8,7 @@ const NavItem = () => {
       <Navbar bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
-            <h1>Logo</h1>
+            <h1>Pizza Hut</h1>
           </Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
