@@ -3,7 +3,7 @@ import { Button, Card, CardGroup, Col, Row } from "react-bootstrap";
 
 const Pizzas = () => {
     return (
-        <div className=" py-5 container">
+        <div id='pizzas' className=" py-5 container">
         <h1 className="text-center mb-3">Our Pizzas</h1>
         <div>
           <CardGroup>

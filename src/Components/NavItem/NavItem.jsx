@@ -12,6 +12,8 @@ const NavItem = () => {
           </Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link  href="/home#pizzas">Pizzas</Nav.Link>
+            <Nav.Link  href="/home#chef">Chef</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/signup">Sign Up</Nav.Link>
           </Nav>

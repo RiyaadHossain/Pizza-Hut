@@ -7,7 +7,7 @@ const Chef = () => {
   const navigate = useNavigate()
   const id = 1;
   return (
-    <div className=" py-5 container mx-auto">
+    <div id="chef" className=" py-5 container mx-auto">
       <h1 className="text-center mb-3">Our Chefs</h1>
       <div>
         <CardGroup>
